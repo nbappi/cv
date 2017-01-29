@@ -1,0 +1,25 @@
+{
+  "name": "CV",
+  "version": "0.1.0",
+  "description": "CV",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nbappi/cv"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Md. Nuruzzaman Bappi",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.8.5"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8800 -c-1",
+    "prestart": "npm install"
+  }
+
+}
+
+
